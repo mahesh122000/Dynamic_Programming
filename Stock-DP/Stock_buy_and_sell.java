@@ -30,3 +30,31 @@ class GFG
 	 System.out.println();
 	 }
 	 }}
+
+//or
+
+/*
+public void stockBuySell(int[] a, int n) {
+    boolean bought=false;
+    int price=0;
+    boolean pro=false;
+    for(int i=0;i<n-1;i++)
+    {if(a[i]<a[i+1])
+    {if(bought==false)
+    {price=i;
+    bought=true;}}
+    if(a[i]>a[i+1])
+    {if(bought==true)
+    {System.out.print("("+price+" "+i+")"+" ");
+    bought=false;
+    pro=true;}}
+    }
+    if(bought==true)
+    {System.out.print("("+price+" "+(n-1)+")");
+    pro=true;}
+    if(pro==false)
+    System.out.print("No Profit");
+    System.out.println();
+    }
+}
+*/
